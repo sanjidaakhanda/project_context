@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<h1>home</h1>
+  <h2>{{ lst | length }}</h2>
+  <h1>{{ v | addslashes }}</h1>
+  <h1>{{ v | capfirst }}</h1>
+  <h1>{{ c | cut:" " }}</h1>
+  <h1>{{ n | default:"nothing" }}</h1>
+  <h1>{{ names | dictsort:"name" }}</h1>
+  <h1>{{ file_sizes | escape }}</h1>
+  <h1>{{ file_sizes | filesizeformat }}</h1>
+  <h1>{{ lst | first }}</h1>
+  
+  <h1>{{ lst | join:" // " }}</h1>
+  <h1>{{ lst | last }}</h1>
+  <h1>{{ lst | length }}</h1>
+  <h1>{{ lst | linenumbers }}</h1>
+  <h1>{{ lst | lower }}</h1>
+  <h1>{{ lst | random }}</h1>
+  <h1>{{ names | slice:":2" }}</h1>
+  <h1>{{ value | slugify }}</h1>
+{{lst}}
+<h1>{{ lst | first }}</h1>
+<h2>
+  {{lst | join:'-'}}
+</h2>
+<h2>{{ today | date }}</h2>
+<h2>{{ value | title }}</h2>
+<h2>{{ value | upper }}</h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+<h2></h2>
+  </body>
+</html>
